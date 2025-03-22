@@ -14,6 +14,20 @@ def print_odd_numbers(n: int):
 # print_odd_numbers(10)
 # print(20*"-")
 
+###############################################################
+def print_even_numbers(n: int):
+    """
+    Prints all even numbers from 0 to n.
+    
+    Parameters:
+    n (int): The upper limit.
+    """
+    for i in range(n + 1):
+        if i % 2 == 0:
+            print(i)
+
+def add_any_number(a, b):
+    return a + b
 
 ###############################################################
 def add_integers(a: int, b: int) -> int:
@@ -70,7 +84,7 @@ def factorial(n: int) -> int:
         return 1
     else:
         for i in range(2, n + 1):
-            fact *= i
+            fact *= i # fact = fact * i
         return fact
 
 # Example usage:
@@ -97,7 +111,7 @@ def print_fibonacci_series(n: int):
 
 ###############################################################
 # Example of Recursive Function
-def factorial_recursive(n: int) -> int:
+def factorial_recursive_func(n: int) -> int:
     """
     Calculates the factorial of a number.
     
