@@ -70,9 +70,9 @@
 """
 # from car_color import CarColor
 
-# my_colory_car = CarColor('ford', 'mustang', 2024, 'yellow')
+# my_colory_car = CarColor('ford', 'mustang', 2024, 'white')
 
-# my_colory_car.get_descriptive_name()
+# print(my_colory_car.get_descriptive_name())
 # my_colory_car.describe_color()
 
 
@@ -81,9 +81,19 @@
 """
 #  Using Aliases
 """
-from class_modules import ElectricCar as EC
+# from class_modules import ElectricCar as EC
+# import class_modules as car
 
-print ("alireza")
+# new_car = car.Car('ford', 'mustang', 2025)
+# print(new_car.get_descriptive_name())
+
+# my_leaf_car = EC('nissan', 'leaf', 2025)
+# print(my_leaf_car.get_descriptive_name())
+
+# my_leaf_car_new = car.ElectricCar('nissan_abi', 'leaf_hamoom', 2025)
+# print(my_leaf_car_new.get_descriptive_name())
+
+# print ("alireza")
 
 
 
