@@ -9,9 +9,9 @@
 			"type": "debugpy",
 			"request": "launch",
 			"program": "${file}",
-			// "console": "integratedTerminal"
-			"console": "internalConsole",
-			"justMyCode": true
+			"console": "integratedTerminal"
+			// "console": "internalConsole",
+			// "justMyCode": true
 		}
 	]
 }
